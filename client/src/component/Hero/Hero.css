@@ -1,0 +1,22 @@
+button{
+    padding: 17px 45px;
+    background-color: chocolate;
+    border: none;
+    /* color: wheat; */
+    border-radius: 7px;
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+    /* margin-left: 2rem; */
+    color: black;
+}
+button:hover{
+    background-color: transparent;
+    color: wheat;
+    border: 1px solid chocolate;
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.5rem;
+}

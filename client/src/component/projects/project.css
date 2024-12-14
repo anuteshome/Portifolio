@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 6rem;
+}
+.p_img{
+    width: 300px;
+    height: 300px;
+}
+.pro_title{
+font-size: 2.5rem;
+margin-bottom: 2rem;
+position: relative;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+.pro_title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: chocolate; /* Purple underline */
+    margin: 0.5rem auto 0;
+  }
